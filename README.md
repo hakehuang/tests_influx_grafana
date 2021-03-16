@@ -8,7 +8,7 @@ In influxdb create a database that will host the test results and call it `zephy
 	nashif@master:~$ influx
 	Connected to http://localhost:8086 version 1.8.4
 	InfluxDB shell version: 1.8.4
-	> CRATE DATABASE zephyr_test_result
+	> CREATE DATABASE zephyr_test_result
 
 In grafana, create a new data source and add the above database you have just created.
 
